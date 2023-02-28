@@ -1,0 +1,5 @@
+{:paths ["src"]
+ :tasks {:requires ([petty.core :as petty])
+         slug         (println (petty/slug))
+         alliteration (println (petty/alliteration))
+         emoji        (apply println (petty/emoji))}}
